@@ -17,7 +17,7 @@ public class Main {
         copy = Arrays.copyOf(arr,arr.length);
         Arrays.sort(copy);
 
-        System.out.printf("exit...");
+        System.out.println("Array: " + Arrays.toString(copy));
 
     }
 }
