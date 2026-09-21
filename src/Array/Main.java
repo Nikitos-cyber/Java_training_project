@@ -17,9 +17,7 @@ public class Main {
         copy = Arrays.copyOf(arr,arr.length);
         Arrays.sort(copy);
 
-        System.out.printf("Arr: %s", Arrays.toString(arr));
-        System.out.println(String.format("\tCopy: %1$s", Arrays.toString(copy)));
-        System.out.println("Equals: Arr and Copy: " + Arrays.equals(arr,copy));
-        System.out.println("deepEquals: Arr and Copy: " + "\n");
+        System.out.printf("exit...");
+
     }
 }
