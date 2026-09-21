@@ -18,8 +18,8 @@ public class Main {
         Arrays.sort(copy);
 
         System.out.printf("Arr: %s", Arrays.toString(arr));
-        System.out.println(String.format("\nCopy: %1$s", Arrays.toString(copy)));
+        System.out.println(String.format("Copy: %1$s", Arrays.toString(copy)));
         System.out.println("Equals: Arr and Copy: " + Arrays.equals(arr,copy));
-        System.out.println("deepEquals: Arr and Copy: " + Arrays.deepEquals(arr,copy));
+        System.out.println("deepEquals: Arr and Copy: ");
     }
 }
